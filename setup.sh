@@ -1,4 +1,4 @@
-sudo apt-get install make cmake autoconf automake libmicrohttpd-dev libxml2-dev xsltproc libxslt1-dev pkg-config flex cmake libssh-dev sqlite3 libsqlite3-dev libgnutls28-dev libgcrypt11-dev libglib2.0-dev libpcap-dev libgpgme11-dev uuid-dev bison libksba-dev nmap rpm;
+sudo apt-get install make cmake autoconf gnutls libxslt xsltproc libopenvas automake libmicrohttpd-dev libxml2-dev xsltproc libxslt1-dev pkg-config flex cmake libssh-dev sqlite3 libsqlite3-dev libgnutls28-dev libgcrypt11-dev libglib2.0-dev libpcap-dev libgpgme11-dev uuid-dev bison libksba-dev nmap rpm;
 cd /usr/share && sudo mkdir openvas && cd openvas;
 sudo wget http://wald.intevation.org/frs/download.php/1303/openvas-libraries-6.0.0.tar.gz;
 sudo wget http://wald.intevation.org/frs/download.php/1307/openvas-scanner-3.4.0.tar.gz;
